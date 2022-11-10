@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Кафе</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	
+	<!--<script src="js/jquery.min.js"></script>-->
+</head>
+<body>
+	<div id="header">
+		<img src="images/logo.png">
+		<h1>Teddy Restaurant</h1>
+	</div>
+
+	<div id="menu">
+		<ul>
+			<a href="#"><li>Головна</li></a>
+			<a href="html/dishes.html"><li>Страви</li></a>
+			<a href="html/news.html"><li>Новини</li></a>
+			<a href="html/contacts.html"><li>Контакти</li></a>
+		</ul>
+	</div>
+
+	<!--page  -->
+	<div style="background: white;">
+		<div id="modules">
+		<module class="active " id="sp-mission">
+		<div class="about">
+			<!--about-->
+			<div class="image" style="background-image: url('images/cafe.webp')"></div>
+  		
+    		<div class="text text-black">
+        		<h1 class="uppercase">ПРО  НАС</h1>
+
+        		<div class="content">
+					<div class="wp-block-group">
+						<div class="wp-block-group__inner-container">
+							<div class="wp-block-group">
+								<div class="wp-block-group__inner-container">
+									<p></p>
+									<p><b style="color: navy">«Teddy Restaurant»</b> - це крутий та затишний ресторан, оригінальністю якого є коричневі ведмедики, які тут повсюди. Кожен відвідувач може посадити плюшевого компаньйона біля себе та пообіймати його. Тож навіть якщо вам немає з ким провести вечір, тут ви не сидітимете за столиком самі. Хіба лиш ваш друг на вечір не зможе підтримати розмову.
+									</p>
+									<p>Оригінальністю «Teddy restaurant» у Кропивницькому є коричневі ведмедики, які тут повсюди. Кожен відвідувач може посадити плюшевого компаньйона біля себе та пообіймати його. Тож навіть якщо вам немає з ким провести вечір, тут ви не сидітимете за столиком самі. Хіба лиш ваш друг на вечір не зможе підтримати розмову.
+									</p>
+									<p></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+    		</div>
+
+			<div id="slider">
+				<div class="slider">
+					<div class="owl-carousel">
+						<img class="slider__item visible" src="images/slider/slid1.jpg" alt="Slider item">
+						<img class="slider__item" src="images/slider/slid2.jpg" alt="Slider item">
+						<img class="slider__item" src="images/slider/slid3.jpg" alt="Slider item">
+						<img class="slider__item" src="images/slider/slid4.jpg" alt="Slider item">
+						<img class="slider__item" src="images/slider/slid5.jpg" alt="Slider item">
+						<img class="slider__item" src="images/slider/slid6.jpg" alt="Slider item">
+					</div>
+					<button class="slider__btn slider__btn--prev" onclick="carusel('prev')">
+						<img src="images/slider/arrow_left.svg" alt="">
+					</button>
+					<button class="slider__btn slider__btn--next" onclick="carusel('next')">
+						<img src="images/slider/arrow_right.svg" alt="">
+					</button>
+				</div>
+			</div>
+
+    		<div class="text text-black" style="line-height: 20px; text-align: justify;">
+        		<h1 class="uppercase">НАШІ ПЕРЕВАГИ</h1>
+				
+    			<p>Ведмедики вже захопили соціальну мережу Instagram! Адже яка дівчина зможе втриматись і не зробити фото з плюшевим велетнем.</p>
+				
+				<p>Кожен Ваш пост ми бачимо і публікуємо собі на сторінку соціальних мереж! І в кінці кожного місяця проводимо розіграш на мішку серед постів з відміткою нашого ресторану)</p>
+    			
+				<p>У меню ресторану є сніданки, стартери, основні страви, салати, устриці, піца, страви для вегетаріанців, а також гарячі напої, винна карта та коктейлі.</p>
+
+				<p>В меню піца двох видів — неаполітанська та нью-йоркська. Неаполітанська (30 см) — пухка та обвуглена, тісто готується на заквасці без дріжджів з цільнозернового та житньоо борошна, а тісто ферментується 36 годин.</p>
+
+				<p>Також в меню паста, яку готують на італійському борошні з твердих сортів пшениці і додають 33 жовтки.</p>
+    			<section class="section-team text-black">
+    				<div class="container">
+					<div class="team" data-tabs="root" id="team">
+					<div class="team_content" data-tabs="container" style="margin-top:20px;">
+					<div data-tabs="content" data-for="kv" class="-active">
+						<ul class="team_list">	
+							<li class="team_item">
+							<div class="card-team">
+							<picture>
+								<img class="card-team_photo lozad" alt="Гарний інтер'єр" src="images/icons/icon-cafe.png" style="opacity: 1; border-radius: 0;">
+							</picture>
+
+							<div class="card-team_group">
+								<p class="card-team_name">Гарний інтер'єр <br>та затишок</p>
+							</div>
+							</div>
+							</li>
+
+							<li class="team_item">
+							<div class="card-team">
+								<picture>
+									<img class="card-team_photo lozad" alt="Смачні страви"
+									src="images/icons/icon-dish.png"
+									style="opacity: 1; border-radius:0px;">
+								</picture>
+
+								<div class="card-team_group">
+									<p class="card-team_name">Смачні страви <br>та фірменні напої</p>
+								</div>
+							</div>
+							</li>
+								
+							<li class="team_item">
+							<div class="card-team">
+							<picture>
+								<img class="card-team_photo lozad" alt="Компетентність" src="images/icons/icon-recruitment.png" style="opacity: 1; border-radius: 0;">
+							</picture>
+
+							<div class="card-team_group">
+								<p class="card-team_name">Професійність <br>персоналу</p>
+							</div>
+							</div>
+							</li>
+
+							<li class="team_item">
+							<div class="card-team">
+							<picture>
+								<img class="card-team_photo lozad" alt="Акції" src="images/icons/icon-discount.png" style="opacity: 1; border-radius: 0;">
+							</picture>
+
+							<div class="card-team_group">
+								<p class="card-team_name">Акції <br>та знижки</p>
+							</div>
+							</div>
+							</li>
+
+							<li class="team_item">
+							<div class="card-team">
+							<picture>
+								<img class="card-team_photo lozad" alt="Сімейний відпочинок" src="images/icons/icon-celebration.png" style="opacity: 1; border-radius: 0;">
+							</picture>
+
+							<div class="card-team_group">
+								<p class="card-team_name">Сімейний <br>відпочинок </p>
+							</div>
+							</div>
+							</li>
+
+							<li class="team_item">
+							<div class="card-team">
+							<picture>
+								<img class="card-team_photo lozad" alt="Максимум задоволення" src="images/icons/icon-recruitment2.png" style="opacity: 1; border-radius: 0;">
+							</picture>
+
+							<div class="card-team_group">
+								<p class="card-team_name">Задоволення <br>очікувань</p>
+							</div>
+							</div>
+							</li>
+						</ul>
+					</div>
+					</div>
+					</div>		
+					</div>
+				</section>
+    		</div>
+
+    		<div class="text text-black" style="background: #FAEDCD;">
+    			<h1 class="uppercase">Популярні страви</h1>	
+    			<section class="section-team text-black">
+    			<div class="container">
+					<div class="team" data-tabs="root" id="team">
+						<div class="team_content" data-tabs="container">
+							<div data-tabs="content" data-for="kv" class="-active">
+								<ul class="team_list">				
+									<li class="team_item">
+										<div class="card-team">
+											<picture>
+												<img class="card-team_photo lozad" alt="Тунець татакі"
+												src="images/freddy/freddy1.jpg"
+												 style="opacity: 1;">
+											</picture>
+
+											<div class="card-team_group">
+												<p class="card-team_name">Тунець татакі</p>
+												<p class="card-team_position">Ніжний та соковитий</p>
+											</div>
+										</div>
+									</li>
+
+									<li class="team_item">
+										<div class="card-team">
+										<picture>
+											<img class="card-team_photo lozad" alt="Качка в соусі 'теріякі'" src="images/freddy/freddy2.jpg" style="opacity: 1;">
+										</picture>
+
+										<div class="card-team_group">
+											<p class="card-team_name">Качка в соусі 'теріякі'</p>
+											<p class="card-team_position">Задоволення з першого шматка</p>
+										</div>
+										</div>
+									</li>
+							
+									<li class="team_item">
+										<div class="card-team">
+										<picture>
+											<img class="card-team_photo lozad" alt="Паста «Ей, Креветка»" src="images/freddy/freddy3.jpg" style="opacity: 1;">
+										</picture>
+
+										<div class="card-team_group">
+											<p class="card-team_name">Паста «Ей, Креветка»</p>
+											<p class="card-team_position">Неповторний смак</p>
+										</div>
+										</div>
+									</li>
+
+									<li class="team_item">
+										<div class="card-team">
+											<picture>
+												<img class="card-team_photo lozad" alt="Маренга&малина" src="images/freddy/freddy4.jpg" style="opacity: 1;">
+											</picture>
+
+											<div class="card-team_group">
+												<p class="card-team_name">Маренга&малина</p>
+												<p class="card-team_position">Райська насолода</p>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>		
+				</div>
+				</section>
+			</div>
+
+			<div id="contacts">
+				<div class="contacts-title">
+					<h2>Контакти</h2> 
+				</div>  
+				<div class="contacts-content">
+					<p>Хочете дізнатися про нас більше?<br>Завжди будемо раді відповісти на ваші питання!<p>              
+				</div>
+				<div class="contacts-button">
+					<a href="html/contacts.html" class="btn">Відправити повідомлення</a>
+				</div>
+				<div class="contacts-social">
+					<a href="http://youtube.com" target="_blank"><img src="./images/youtube_icon.svg" alt=""></a>
+					<a href="http://instargam.com" target="_blank"><img src="./images/instagram_icon.svg" alt=""></a>
+					<a href="http://facebook.com" target="_blank"><img src="./images/facebook_icon.svg" alt=""></a>
+					<a href="http://telegram.com" target="_blank"><img src="./images/telegram_icon.svg" alt=""></a> 
+				</div>
+				<div class="contacts-footer">
+					<p>Слідкуйте за нами у соціальних мережах:<br>Youtube, Instargam, Facebook, Telegram</p>
+				</div>
+			</div>
+
+		</div>
+		</module>
+		</div>
+	</div>
+
+	<footer id="footer">
+        <div class="leftColumn">
+        	<p>© 2022 Литвин А.Д.
+        </div>
+        
+        <div class="rightColumn">
+            <div class="images">
+				<a href="https://www.facebook.com/itothers" target="_blank" class="fbIcon"></a>
+				<a href="#" target="_blank" class="instagramIcon"></a>
+				<a href="https://www.youtube.com/channel/UCzjY59xyxrAWgOGpkDCaD5g" target="_blank" class="youTubeIcon"></a>
+			</div>
+            <div class="joinSocial">
+            	Приєднуйтесь до нас<br>у соціальних мережах
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+</body>
+</html>
+
+<script src="js/main.js"></script>
+

@@ -1,0 +1,12 @@
+.articleNewsItem .text .content img.alignright{
+	float : right;
+	margin-left : 10px;
+}
+.articleNewsItem .text .content img.alignleft {
+	float : left;
+	margin-right : 10px;
+}
+a, a:hover, a:visited {
+	color:white;
+	text-decoration: none;
+}

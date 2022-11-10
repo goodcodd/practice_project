@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Кафе</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/about.css">
+	
+	<!--<script src="js/jquery.min.js"></script>-->
+</head>
+<body>
+	<div id="header">
+		<img src="../images/logo.png">
+		<h1>Teddy Restaurant</h1>
+	</div>
+
+	<div id="menu">
+		<ul>
+			<a href="../index.html"><li>Головна</li></a>
+			<a href="dishes.html"><li>Страви</li></a>
+			<a href="news.html"><li>Новини</li></a>
+			<a href="contacts.html"><li>Контакти</li></a>
+		</ul>
+	</div>
+
+	<!--page  -->
+	<div style="background: white;">
+		<div id="modules">
+		<module class="active " id="sp-mission">
+		<div class="about">
+			<!--about-->
+			<div class="text text-black">
+				<h1 class="uppercase">Контакти</h1>
+			</div>
+ 		
+			<div id="contacts">
+	            <div class="title">
+	                <p>
+	                    <label>Телефони</label>
+	                    (067) 520-45-92, (050) 151-24-38
+	                </p>
+
+	                <p>
+	                    <label>e-mail</label>
+	                    Teddy.Rest@ukr.net
+	                </p>
+	                <p></p><br>    
+
+	                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3738.075580629451!2d32.24590992261895!3d48.50987418159293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1667690381096!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+	            </div><br>
+
+	            <div class="contacts-content">
+	                <p>Хочете дізнатися про нас більше?<br>Завжди будемо раді відповісти на ваші питання!<p>        
+	            </div>
+
+	            <form class="sendform">
+	                <p>
+	                    <label>Прізвище, ім'я</label>
+	                    <input type="text" name="pib" placeholder="Введить ПІ" required>
+	                </p>
+
+	                <p>
+	                    <label>Дата/час замовлення</label>
+	                    <input type="date" name="dt">
+	                    <input type="time" name="tm">
+	                </p>
+
+	                <p>
+	                    <label>Кількість</label>
+	                    <input type="number" name="vol" value="1" min="1" max="50">
+	                </p>
+	                
+	                <p>
+	                    <label>Стать</label>
+	                    <input type="radio" name="sex" checked>чол
+	                    <input type="radio" name="sex">жін
+	                </p>
+
+	                <p>
+	                    <label>Додатково</label>
+	                    <input type="checkbox" name="plus">Віп зала
+	                    <input type="checkbox" name="plus">Дит.столик
+	                </p>
+
+	                 <p>
+	                    <label>Мета</label>
+	                    <select>
+	                        <option></option>
+	                        <option>День народження</option>
+	                        <option>Сніданок</option>
+	                        <option>Обід</option>
+							<option>Вечеря</option>
+							<option>Побачення</option>
+	                        <option>Інше</option>
+	                    </select>
+	                </p>
+
+	                <p>
+	                    <label>Додати коментар</label><br>
+	                    <textarea cols="50" rows="5">
+	                        
+	                    </textarea>
+	                </p>
+
+	                <p><input type="email" name="email" placeholder="xxxxxx@xxx"></p>
+	                
+	                <p><input type="tel" name="phone" pattern="(0[5-9]{2}) [0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="(0xx) xxx-xx-xx"></p>
+
+	                <div class="contacts-button">
+	                    <a href="#!" class="btn">Відправити повідомлення</a>
+	                </div>
+	                <p><input type="submit" value="Отправить"></p>
+	            </form>
+        	</div>
+		</div>
+		</module>
+		</div>
+	</div>
+
+	<footer id="footer">
+        <div class="leftColumn">
+        	<p>© 2022 Литвин А.Д.
+        </div>
+        
+        <div class="rightColumn">
+            <div class="images">
+				<a href="https://www.facebook.com" target="_blank" class="fbIcon"></a>
+				<a href="#" target="_blank" class="instagramIcon"></a>
+				<a href="https://www.youtube.com" target="_blank" class="youTubeIcon"></a>
+			</div>
+            <div class="joinSocial">
+            	Приєднуйтесь до нас<br>у соціальних мережах
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+</body>
+</html>
+
+<script src="../js/main.js"></script>
+
